@@ -1,11 +1,107 @@
 section{
     height: 500px;
-    background-color: green;
-    border: solid black 1px; ;
+    background-color: #1c1d25;
 }
 
-.hero{
-    height: 100vh;
-    background-color:  #4db5ff;
-    border: solid black 1px; ;
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1c1d25;
 }
+
+.resume{
+    margin-left: 900px;
+    margin-right: 0px;
+    height: 100px;
+    width: 100px;
+    flex: 1;
+}
+
+.contact{
+    margin-left: 0px;
+    margin-right: 900px;
+    height: 100px;
+    width: 100px;
+    flex: 1;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    gap: 5px; /* Optional: Add space between the buttons */
+}
+
+.hero-text{
+    color: white;
+    text-align: center;
+    font-family: 'Fira sans', sans-serif;
+    font-size: larger;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-color:  #1c1d25;
+    
+}
+
+footer{
+    height: 500px;
+    background-color: #1c1d25;
+}
+
+nav{
+    color: white;
+}
+
+.greeting{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Fira sans', sans-serif;
+    font-size: medium;
+}
+
+.creds{
+    color: lightgray;
+    text-align: center;
+    font-family: 'Fira sans', sans-serif;
+    font-size: medium;
+}
+
+.custom-button {
+    font-family: 'Fira sans', sans-serif;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+
+    /* Spacing and dimensions */
+    padding: 10px 20px;
+    margin: 10px;
+
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+
+    /* Interaction */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #2980b9; /* Slightly darker shade for hover effect */
+}
+
+.custom-button:active {
+    background-color: #2471a3; /* Even darker shade for active (pressed) state */
+}
+
+.custom-button:focus {
+    outline: none; /* Remove default browser outline */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: add a subtle focus shadow */
+}
+
